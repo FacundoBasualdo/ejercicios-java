@@ -1,0 +1,14 @@
+
+package ejercicios;
+
+public class ejercicio8 {
+    public static void main(String[] args) {
+    
+        int contador = 0;
+        while (contador <= 50){
+            System.out.println(contador);
+            contador += 1;
+            
+        }
+    }
+}
