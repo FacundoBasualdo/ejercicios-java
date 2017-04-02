@@ -10,8 +10,7 @@ public class ejercicio1 {
         String CrearUsuario = "toto";
         System.out.println("Crear Contraseña ");
         String CrearContraseña = "123";
-        
-        
+                
         System.out.println("Ingrese Su Usuario ");
         String IniciarUsuario = "toto";
         
