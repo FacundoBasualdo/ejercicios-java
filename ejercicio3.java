@@ -1,6 +1,7 @@
 
 package ejercicios;
 
+
 public class ejercicio3 {
     public static void main(String[] args) {
         
@@ -8,7 +9,9 @@ public class ejercicio3 {
         String TipoDePago = "contado";
         
         if (TipoDePago == "contado"){
-            int MontoConDescuento = MontoCompra / 10;
+            int Descuento = MontoCompra / 10;
+            System.out.println("El Descuento Es De " + Descuento);
+            int MontoConDescuento = MontoCompra - Descuento;
             System.out.println("El Monto Con Descuento Es De " + MontoConDescuento);
         }
     }   
