@@ -12,7 +12,7 @@ public class ejercicio3 {
             int Descuento = MontoCompra / 10;
             System.out.println("El Descuento Es De " + Descuento);
             int MontoConDescuento = MontoCompra - Descuento;
-            System.out.println("El Monto Con Descuento Es De " + MontoConDescuento);
+            System.out.println("El Monto Con Descuento Es De " + MontoConDescuento); 
         }
     }   
 }
